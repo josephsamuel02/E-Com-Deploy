@@ -1,0 +1,99 @@
+a {
+    text-decoration: none;
+}
+
+.CategoryList {
+    margin: 0px;
+    padding: 0px;
+
+    background-color: white;
+}
+.filterBox {
+    margin: 10px;
+    padding: 2px;
+    display: flex;
+    color: rebeccapurple;
+}
+.filterBox h4 {
+    margin: 0px;
+    padding: 2px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.filterBox #filter {
+    margin: 0px;
+    padding: 2px;
+
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px black;
+    border: solid 1px;
+}
+
+.filterBox #filter option {
+    margin: 5px;
+    padding: 5px;
+
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    outline: none;
+}
+.CstegoryBox {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-flow: ; */
+    background-color: white;
+}
+
+.CstegoryCard {
+    margin: 30px auto;
+    padding: 0px;
+    height: auto;
+    width: 210px;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 1px silver;
+
+    display: block;
+}
+
+.CstegoryCard img {
+    margin: 0px;
+    padding: 0px;
+    height: 160px;
+    width: 210px;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 5px;
+}
+
+.CstegoryCard .Details {
+    margin: 1px;
+    padding: 2px;
+}
+.Details h2 {
+    margin: 0px;
+    padding: 1px;
+
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: sans-serif;
+
+    word-wrap: break-word;
+}
+
+.Details p {
+    margin: 0px;
+    padding: 2px;
+
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+}

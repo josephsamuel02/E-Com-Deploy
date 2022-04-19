@@ -1,0 +1,29 @@
+.home {
+    margin: 0px;
+    padding: 0px;
+    background-color: ;
+}
+.ctegorylist {
+    margin: 10px 8px 8px;
+}
+
+.ctegorylist span {
+    margin: 2px;
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+}
+
+.ctegorylist #category {
+    margin: 1px;
+    padding: 2px;
+    border-radius: 20px;
+    border: solid 1px rgb(240, 175, 163);
+    outline: none;
+}
+.ctegorylist #category option {
+    margin: 2px;
+    padding: 4px;
+    font-size: 13px;
+    border: solid 0px;
+    border-radius: 16px;
+}

@@ -1,0 +1,111 @@
+#productpage {
+    margin: 0px;
+    padding: 0px;
+}
+
+productCard {
+    margin: 40px 0px 0px 0px;
+    padding: 10px;
+
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 20px;
+
+    align-self: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 187, 241);
+    border-radius: 17px;
+    box-shadow: 1px 1px 2px 1px rgba(192, 192, 192, 0.384);
+}
+
+productCard .imageBox {
+    margin: auto;
+    padding: 0px;
+
+    width: auto;
+    height: auto;
+}
+
+imageBox img {
+    margin: 0px auto;
+    padding: 0px;
+
+    width: 350px;
+    height: 220px;
+    display: flex;
+}
+
+detail {
+    margin: 2px;
+    padding: 15px;
+    height: auto;
+    width: auto;
+}
+
+detail .name {
+    margin: 0px;
+    padding: 4px;
+
+    font-size: 18px;
+
+    font-family: sans-serif;
+    color: black;
+}
+
+detail description {
+    margin: 0px auto;
+    padding: 0px;
+
+    width: auto;
+    height: auto;
+}
+
+detail description p {
+    margin: 0px auto;
+    padding: 0px;
+
+    font-size: 15px;
+    /* font-weight: lighter; */
+    word-wrap: break-word;
+    color: black;
+}
+detail .price {
+    margin: 0px auto;
+    padding: 0px;
+
+    font-size: 20px;
+    font-weight: bold;
+    /* font-family: ; */
+    color: black;
+}
+
+detail .quantity {
+    margin: 0px auto;
+    padding: 0px;
+
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+}
+
+detail button {
+    margin: 2px auto;
+    padding: 4px 18px;
+
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+
+    display: flex;
+    outline: none;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 50px;
+    border: solid 0px;
+    box-shadow: 1px 1px 2px 1px rgba(108, 93, 240, 0.781);
+}

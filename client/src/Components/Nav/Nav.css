@@ -1,0 +1,345 @@
+/* Mobile view */
+@media (max-width: 543px) {
+    a {
+        text-decoration: none;
+    }
+
+    .nav {
+        margin: 0px;
+        padding: 0px;
+
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        max-width: 100%;
+        height: 50px;
+        display: flex;
+
+        background-color: white;
+
+        box-shadow: 1px 1px 2px 1px rgba(192, 192, 192, 0.281);
+        z-index: 5;
+    }
+
+    .header {
+        margin: 11px 9px;
+        padding: 1px;
+
+        font-family: "Oswald", sans-serif;
+        font-size: 18px;
+        font-weight: lighter;
+        color: tomato;
+        cursor: pointer;
+    }
+
+    .search {
+        margin: auto;
+        padding: 3px;
+        width: 150px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .searchInput {
+        margin: 0px;
+        padding: 1px;
+        outline: none;
+        border: solid 1px rgba(188, 188, 189, 0.644);
+        border-radius: 30px 0px 0px 30px;
+        height: 15px;
+        width: 90px;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        color: rgb(65, 62, 62);
+    }
+
+    .searchBtn {
+        margin: 0px;
+        padding: 2px;
+        outline: none;
+        border: solid 1px gray;
+        border-radius: 0px 30px 30px 0px;
+        height: 17px;
+        width: 50px;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: lighter;
+        font-size: 11px;
+        color: white;
+        background-color: tomato;
+    }
+
+    #logANDregisterBTN {
+        margin: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .userbtn {
+        margin: auto 3px;
+        padding: 0px 5px;
+
+        outline: none;
+        border: solid 1.5px tomato;
+        border-radius: 30px;
+        height: 20px;
+        /* width: 15px; */
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 8px;
+        color: tomato;
+        background-color: white;
+    }
+
+    #CartIcon {
+        margin: 5px;
+        padding: 3px;
+        color: tomato;
+        font-size: 25px;
+    }
+
+    #CartIcon span {
+        margin: 0px;
+        padding: 1px 3px;
+
+        background-color: rgb(180, 15, 15);
+        color: white;
+
+        font-size: 10px;
+
+        border-radius: 50px;
+    }
+}
+
+/* for tablet view */
+@media (min-width: 544px) {
+    a {
+        text-decoration: none;
+    }
+
+    .nav {
+        margin: 0px;
+        padding: 0px;
+
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+
+        height: 50px;
+        display: flex;
+
+        background-color: white;
+
+        box-shadow: 1px 1px 2px 1px rgba(192, 192, 192, 0.281);
+        z-index: 5;
+    }
+
+    .header {
+        margin: 11px 10px;
+        padding: 10px auto;
+
+        font-family: "Oswald", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: tomato;
+        cursor: pointer;
+    }
+
+    .search {
+        margin: auto;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .searchInput {
+        margin: 0px;
+        padding: auto;
+
+        outline: none;
+        border: solid 1px rgba(188, 188, 189, 0.644);
+        border-radius: 30px 0px 0px 30px;
+        height: 20px;
+
+        font-family: sans-serif;
+        font-weight: ;
+        font-size: 14px;
+        color: rgb(65, 62, 62);
+    }
+
+    .searchBtn {
+        margin: 0px;
+        padding: auto;
+
+        outline: none;
+        border: solid 1px gray;
+        border-radius: 0px 30px 30px 0px;
+        height: 23px;
+
+        font-family: sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        color: white;
+        background-color: tomato;
+    }
+
+    #logANDregisterBTN {
+        margin: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .userbtn {
+        margin: auto 3px;
+        padding: 0px 10px;
+
+        outline: none;
+        border: solid 1.5px tomato;
+        border-radius: 30px;
+        height: 23px;
+
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        color: tomato;
+        background-color: white;
+    }
+
+    #CartIcon {
+        margin: 5px;
+        padding: 3px;
+        color: tomato;
+        font-size: 25px;
+    }
+
+    #CartIcon span {
+        margin: 0px;
+        padding: 1px 3px;
+
+        background-color: rgb(180, 15, 15);
+        color: white;
+
+        font-size: 10px;
+
+        border-radius: 50px;
+    }
+}
+
+/* Desktop styling */
+@media (min-width: 1020px) {
+    a {
+        text-decoration: none;
+    }
+
+    .nav {
+        margin: 0px;
+        padding: 0px;
+
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+
+        height: 50px;
+        display: flex;
+
+        background-color: white;
+
+        box-shadow: 1px 1px 2px 1px rgba(192, 192, 192, 0.281);
+        z-index: 5;
+    }
+
+    .header {
+        margin: 10px;
+        padding: 5px;
+
+        font-family: "Oswald", sans-serif;
+        font-size: 22px;
+        /* font-weight: bold; */
+        color: tomato;
+        cursor: pointer;
+    }
+
+    .search {
+        margin: auto;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .searchInput {
+        margin: 0px;
+
+        outline: none;
+        border: solid 1px rgba(188, 188, 189, 0.644);
+        border-radius: 30px 0px 0px 30px;
+        height: 20px;
+
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgb(65, 62, 62);
+    }
+
+    .searchBtn {
+        margin: 0px;
+
+        outline: none;
+        border: solid 1px gray;
+        border-radius: 0px 30px 30px 0px;
+        height: 23px;
+
+        font-family: sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        color: white;
+        background-color: tomato;
+    }
+
+    #logANDregisterBTN {
+        margin: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .userbtn {
+        margin: auto 3px;
+        padding: 0px 15px;
+
+        outline: none;
+        border: solid 1.5px tomato;
+        border-radius: 30px;
+        height: 23px;
+
+        font-family: sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        color: tomato;
+        background-color: white;
+    }
+
+    #CartIcon {
+        margin: 5px;
+        padding: 3px;
+        color: tomato;
+        font-size: 25px;
+    }
+
+    #CartIcon span {
+        margin: 0px;
+        padding: 1px 3px;
+
+        background-color: rgb(180, 15, 15);
+        color: white;
+
+        font-size: 10px;
+
+        border-radius: 50px;
+    }
+}
