@@ -15,6 +15,14 @@ const persistedReducer = persistReducer(persistConfig, rootReducer);
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
+/////////// TO HID REDUX DEV TOOLS IN PRODUCION BUILD//
+// error: 'nodeEnv' is not defined ////
+// const composeEnhancer =
+//     (nodeEnv !== "production" &&
+//         typeof window !== "undefined" &&
+//         window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) ||
+//     compose;
+
 const store = createStore(
     persistedReducer,
     composeEnhancer(applyMiddleware(promiseMiddleWare))
